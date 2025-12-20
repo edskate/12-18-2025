@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Table Color</title>
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+
+  th {
+    background-color: #1f2937; /* cabeçalho */
+    color: #ffffff;
+    padding: 10px;
+  }
+
+  td {
+    padding: 8px;
+    border: 1px solid #e5e7eb;
+    text-align: center;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f3f4f6; /* linhas pares */
+  }
+
+  tr:nth-child(odd) {
+    background-color: #ffffff; /* linhas ímpares */
+  }
+
+  tr:hover {
+    background-color: #dbeafe; /* hover */
+  }
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>Item</th>
+    <th>Cor</th>
+    <th>Valor</th>
+  </tr>
+  <tr>
+    <td>Camisa</td>
+    <td>Preta</td>
+    <td>R$ 80</td>
+  </tr>
+  <tr>
+    <td>Calça</td>
+    <td>Branca</td>
+    <td>R$ 120</td>
+  </tr>
+  <tr>
+    <td>Jaqueta</td>
+    <td>Vermelha</td>
+    <td>R$ 250</td>
+  </tr>
+</table>
+
+</body>
+</html>
